@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+airport:
+    path: /airport
+    controller: App\Controller\AirportController::index

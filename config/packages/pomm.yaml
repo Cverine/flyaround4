@@ -1,0 +1,5 @@
+pomm:
+    configuration:
+        flyaround:
+            dsn: "%env(DATABASE_URL)%"
+            session_builder: "pomm.model_manager.session_builder"
